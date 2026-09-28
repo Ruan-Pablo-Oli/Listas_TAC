@@ -26,11 +26,9 @@ int main() {
         j++;
         k--;
         find = 1;
-      }
-      if (V[i] + V[j] + V[k] > 0) {
+      } else if (V[i] + V[j] + V[k] > 0) {
         k--;
-      }
-      if (V[i] + V[j] + V[k] < 0) {
+      } else {
         j++;
       }
     }

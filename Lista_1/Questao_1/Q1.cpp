@@ -12,7 +12,7 @@ int main() {
   cin >> r >> s;
 
   if (r.size() > s.size() || s.size() > r.size()) {
-    printf("Nao\n");
+    cout << "Nao\n";
     return 0;
   }
 
@@ -27,7 +27,7 @@ int main() {
     if (T[indice] >= 1) {
       T[indice]--;
     } else {
-      printf("Nao\n");
+      cout << "Nao\n";
       return 0;
     }
   }
